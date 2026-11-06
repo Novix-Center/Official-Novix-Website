@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Novix Center</title>
+  <meta name="description" content="Novix is a new operating system built from scratch. Early development. Download the Novix Imager and follow along." />
+  <meta name="theme-color" content="#07060f" />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="auth-state.js"></script>
+</head>
+<body>
+<header class="site"><div class="wrap">
+  <a class="brand" href="index.html"><img src="assets/favicon.png" alt="" />Novix</a>
+  <nav class="main" aria-label="Main"><a href="index.html#editions">Editions</a><a href="index.html#organizations">Organizations</a><a href="index.html#how">How it works</a><a href="app.html#/downloads">Downloads</a><a href="app.html#/forum">Community</a><a class="only-out" href="app.html#/login">Sign in</a><a class="only-in" href="app.html#/home">My Novix</a></nav>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+  <div>
+    <span class="chip">Early development</span>
+    <h1>Novix OS</h1>
+    <p class="lead">An operating system built from scratch, one line at a time.</p>
+    <div class="cta"><a class="button" href="app.html#/downloads">Download Novix Imager</a><a class="button ghost only-out" href="app.html#/signup">Create an account</a><a class="button ghost only-in" href="app.html#/home">Open my Novix home</a><a class="button ghost" href="#organizations">Schools and organizations</a></div>
+  </div>
+  <img src="assets/logo-512.png" alt="The Novix logo: a glowing purple letter N with an orbit around it" width="340" height="340" />
+</div></section>
+
+<section id="status"><div class="wrap">
+  <h2>Where things stand</h2>
+  <p class="dim" style="max-width:62ch">We want to be honest with you. Novix OS is in early development and is not ready for everyday use. The editions below are not on sale yet. The Novix Imager, the tool that writes Novix onto a USB stick, is the part you can download today with a free Novix account.</p>
+</div></section>
+
+<section id="editions" class="alt"><div class="wrap">
+  <h2>Editions</h2>
+  <p class="dim">One-time purchase for each edition. No subscription. These are planned prices and may change before launch.</p>
+  <div class="grid">
+    <article class="card"><span class="tag">In progress</span><h3 style="margin-top:12px">Novix for PC &amp; Laptop</h3><p class="price">$100</p><p class="dim">For desktop and laptop computers.</p></article>
+    <article class="card"><span class="tag">In progress</span><h3 style="margin-top:12px">Novix for Tablet</h3><p class="price">$50</p><p class="dim">For tablets.</p></article>
+    <article class="card"><span class="tag">In progress</span><h3 style="margin-top:12px">Novix for Phone</h3><p class="price">$25</p><p class="dim">For phones.</p></article>
+  </div>
+</div></section>
+
+<section id="organizations"><div class="wrap">
+  <h2>For schools and organizations</h2>
+  <p class="dim" style="max-width:62ch">The Novix Enterprise Management OS is being designed for schools and businesses that need to manage many devices from one place, with devices enrolled only by the organization's owner. It is not self-serve: organizations get access by talking with us first.</p>
+  <div class="cta"><a class="button" href="#" data-booking>Schedule a meeting</a></div>
+</div></section>
+
+<section id="how" class="alt"><div class="wrap">
+  <h2>How it works</h2>
+  <ol class="steps">
+    <li><b>Create an account</b><span>In the Novix Imager. You must be at least 15. Younger users can have a parent or guardian set it up for them.</span></li>
+    <li><b>Choose your edition</b><span>Editions that are released show a Buy button.</span></li>
+    <li><b>Write it to a USB stick</b><span>The Imager checks the download and verifies the stick after writing. Everything on the stick is erased.</span></li>
+    <li><b>Install</b><span>Start your computer from the stick and follow the Novix setup wizard.</span></li>
+    <li><b>Activate</b><span>Enter the Signature Token linked to your account to finish setup.</span></li>
+  </ol>
+  <div class="shots" aria-label="Screenshots of the Novix Imager">
+    <!-- Add your screenshots to assets/ as shot-1.png, shot-2.png, shot-3.png. Missing images simply disappear. Use a test account, never show real emails or tokens. -->
+    <figure><img src="assets/shot-1.png" alt="Novix Imager sign-in screen" loading="lazy" onerror="this.closest('figure').remove()" /><figcaption>Sign in</figcaption></figure>
+    <figure><img src="assets/shot-2.png" alt="Choosing a Novix edition" loading="lazy" onerror="this.closest('figure').remove()" /><figcaption>Choose your edition</figcaption></figure>
+    <figure><img src="assets/shot-3.png" alt="Choosing a USB stick to write" loading="lazy" onerror="this.closest('figure').remove()" /><figcaption>Write to a USB stick</figcaption></figure>
+  </div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+  <h2>Questions</h2>
+  <details><summary>Can I buy Novix today?</summary><p>Not yet. The editions are in progress. You can download the Novix Imager to see how installation will work.</p></details>
+  <details><summary>Which computers will it run on?</summary><p>The first edition targets 64-bit PCs and laptops. Support for real hardware, such as WiFi, graphics cards and USB devices, is still being built, so early versions are best tried in a virtual machine.</p></details>
+  <details><summary>Why does Windows or macOS warn me about the Imager?</summary><p>The Imager is not code-signed yet, so your system shows a warning for new, unrecognized software. Only download it from this site's download link.</p></details>
+  <details><summary>Why does the Imager ask for administrator permission?</summary><p>Writing directly to a USB stick needs it. The Imager only lists USB drives, never your system disk, and asks you to confirm before erasing anything.</p></details>
+  <details><summary>How old do I have to be?</summary><p>You must be at least 15 to create an account. If you are younger, a parent or guardian can create the account and set Novix up for you.</p></details>
+  <details><summary>What is your refund policy?</summary><p>We will publish it here, and in the User Agreement, before Novix goes on sale.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap">
+  <div>&copy; <span data-year></span> Novix. Operated by <span data-company></span>.<br />Contact: <a href="#" data-email data-show-value>support</a></div>
+  <nav aria-label="Legal"><a href="terms.html">User Agreement</a><a href="license.html">License Agreement</a><a href="privacy.html">Privacy</a><a href="community.html">Community guidelines</a></nav>
+</div></footer>
+<script src="site.js"></script>
+</body></html>
